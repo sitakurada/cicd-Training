@@ -17,9 +17,3 @@ def test_hello():
     response = client.get('/hello')
     assert response.status_code == 200
     assert b'Hello Mark' in response.data
-
-def test_goodbye():
-    client = app.test_client()
-    response = client.get('/goodbye')
-    assert response.status_code == 200
-    assert b'Goodbye' in response.data

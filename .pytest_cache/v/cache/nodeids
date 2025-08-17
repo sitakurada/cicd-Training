@@ -1,1 +1,6 @@
-[]
+[
+  "tests/app_test.py::test_hello",
+  "tests/app_test.py::test_home",
+  "tests/test_app.py::test_hello",
+  "tests/test_app.py::test_home"
+]
